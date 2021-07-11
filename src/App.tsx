@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Flex, Box, Image, Heading } from '@chakra-ui/react';
 
+import LoginForm from './components/LoginForm';
+
 function App(): JSX.Element {
   return (
     <Grid
@@ -31,6 +33,8 @@ function App(): JSX.Element {
           Faça o login na plataforma
         </Heading>
       </Flex>
+
+      <LoginForm area="form" />
     </Grid>
   );
 }
